@@ -241,10 +241,15 @@
     } 
     .descrizioneProgetto{
          transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-         background-color: #f8f5f588;
+         background-color: #0e0d0dec;
          transform: scale(0);
+         color: white;
     }
     
+
+    .progetto svg{
+         fill: white;
+    }
     
     .progetto:hover > .descrizioneProgetto{
     
