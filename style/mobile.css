@@ -1,3 +1,16 @@
+@media only screen and (max-width: 900px) {
+     #logo img{ 
+          width: 130px;
+          height: 130px;
+          margin: 2% 2%;
+     }
+ 
+
+
+}
+
+
+
 @media only screen and (max-width: 700px) {
 
 
@@ -251,7 +264,7 @@
          fill: white;
     }
     
-    .progetto:hover > .descrizioneProgetto{
+    .selected{
     
          transform: scale(100%);
     

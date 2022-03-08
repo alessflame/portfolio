@@ -81,4 +81,15 @@ img.onclick=()=>{
 
 }
 
+let progetto= document.querySelectorAll(".progetto");
+
+for(let i=0; i<progetto.length; i++){
+    let sezione= document.querySelectorAll(".descrizioneProgetto");
+
+    progetto[i].onclick=()=>{
+         sezione[i].classList.toggle("selected");
+         console.log(sezione[i]);
+    }
+}
+
 
